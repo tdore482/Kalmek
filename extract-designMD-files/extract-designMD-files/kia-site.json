@@ -1,0 +1,445 @@
+{
+  "cssVarTotal": 191,
+  "colorVarTotal": 138,
+  "brandPrefixedVarCount": 96,
+  "brandPrefixedVars": {
+    "--secondary-100": "#0f2009",
+    "--secondary-90": "#33691e",
+    "--secondary-80": "#468f13",
+    "--secondary-70": "#5fa91e",
+    "--secondary-60": "#77b239",
+    "--secondary-50": "#8bc34a",
+    "--secondary-40": "#aed581",
+    "--secondary-5": "#f8fcf4",
+    "--secondary-20": "#dcedc8",
+    "--secondary-30": "#c5e1a5",
+    "--secondary-10": "#f1f8e9",
+    "--secondary-0": "#ffffff",
+    "--primary-100": "#05141f",
+    "--primary-90": "#172630",
+    "--primary-80": "#303e48",
+    "--primary-70": "#4a565e",
+    "--primary-60": "#636d74",
+    "--primary-50": "#788187",
+    "--primary-40": "#8d959a",
+    "--primary-30": "#b3b8bc",
+    "--primary-20": "#cdd0d2",
+    "--primary-10": "#e8eaeb",
+    "--primary-5": "#eff0f0",
+    "--primary-2": "#f3f4f5",
+    "--primary-1": "#fafbfb"
+  },
+  "crossOriginFailures": 0,
+  "webComponentNote": null,
+  "elementsWalked": 2179,
+  "colorSpacesDetected": [
+    "rgb"
+  ],
+  "modernCssColorFunctions": {
+    "lightDark": 0,
+    "colorMix": 0,
+    "relativeColor": 0
+  },
+  "topTextColors": [
+    {
+      "color": "rgb(0, 0, 0)",
+      "count": 1339
+    },
+    {
+      "color": "rgb(5, 20, 31)",
+      "count": 396
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "count": 215
+    },
+    {
+      "color": "rgb(11, 13, 14)",
+      "count": 68
+    },
+    {
+      "color": "rgb(141, 149, 154)",
+      "count": 33
+    },
+    {
+      "color": "rgb(74, 86, 94)",
+      "count": 33
+    },
+    {
+      "color": "rgb(5, 21, 31)",
+      "count": 32
+    },
+    {
+      "color": "rgb(205, 208, 210)",
+      "count": 20
+    }
+  ],
+  "topBackgroundColors": [
+    {
+      "color": "rgb(5, 20, 31)",
+      "count": 56
+    },
+    {
+      "color": "rgb(255, 255, 255)",
+      "count": 23
+    },
+    {
+      "color": "rgb(232, 234, 235)",
+      "count": 13
+    },
+    {
+      "color": "rgb(243, 244, 245)",
+      "count": 11
+    },
+    {
+      "color": "rgb(39, 69, 92)",
+      "count": 6
+    },
+    {
+      "color": "rgba(255, 255, 255, 0)",
+      "count": 5
+    },
+    {
+      "color": "rgba(255, 255, 255, 0.1)",
+      "count": 5
+    },
+    {
+      "color": "rgb(246, 242, 237)",
+      "count": 4
+    }
+  ],
+  "topBorderColors": [
+    [
+      "rgba(255, 255, 255, 0.6)",
+      15
+    ],
+    [
+      "rgb(205, 208, 210)",
+      13
+    ],
+    [
+      "rgb(5, 21, 31)",
+      4
+    ],
+    [
+      "rgb(48, 62, 72)",
+      3
+    ],
+    [
+      "rgb(5, 20, 31)",
+      2
+    ]
+  ],
+  "topTextDecorationColors": [
+    {
+      "color": "rgb(5, 21, 31)",
+      "count": 1
+    }
+  ],
+  "topOutlineColors": [],
+  "topSvgFills": [
+    [
+      "rgb(120, 129, 135)",
+      9
+    ],
+    [
+      "rgb(255, 255, 255)",
+      2
+    ],
+    [
+      "rgb(5, 20, 31)",
+      1
+    ],
+    [
+      "rgb(50, 174, 136)",
+      1
+    ],
+    [
+      "rgb(101, 101, 101)",
+      1
+    ],
+    [
+      "rgb(46, 54, 68)",
+      1
+    ]
+  ],
+  "topSvgStrokes": [
+    [
+      "rgb(255, 255, 255)",
+      36
+    ],
+    [
+      "rgb(5, 20, 31)",
+      23
+    ],
+    [
+      "rgb(11, 13, 14)",
+      12
+    ],
+    [
+      "rgb(141, 149, 154)",
+      2
+    ]
+  ],
+  "svgElementCount": 83,
+  "topFontFamilies": [
+    [
+      "\"Kia Signature Regular\", Dotum, 돋움, 굴림, arial, sans-serif",
+      1015
+    ],
+    [
+      "system-ui, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\"",
+      879
+    ],
+    [
+      "\"Kia Signature Bold\", Dotum, 돋움, 굴림, arial, sans-serif",
+      272
+    ],
+    [
+      "\"Kia Signature Light\", Dotum, 돋움, 굴림, arial, sans-serif",
+      9
+    ],
+    [
+      "\"Kia Signature Regular\"",
+      2
+    ]
+  ],
+  "fontSizesScale": [
+    "6.402px",
+    "6.7px",
+    "6.9355px",
+    "7.469px",
+    "8.24748px",
+    "8.5px",
+    "8.536px",
+    "9px",
+    "9.6219px",
+    "9.95869px",
+    "10px",
+    "10.9965px",
+    "12px",
+    "12.8px",
+    "12.992px",
+    "13.008px",
+    "13.6px",
+    "13.7456px",
+    "14px",
+    "14.4px",
+    "15px",
+    "16px",
+    "19.2438px",
+    "19.2748px",
+    "24px",
+    "27.4911px",
+    "35.5667px"
+  ],
+  "fontWeights": [
+    "400",
+    "500",
+    "600",
+    "700"
+  ],
+  "topLetterSpacings": [
+    [
+      "0.144px",
+      9
+    ],
+    [
+      "0.13008px",
+      3
+    ],
+    [
+      "0.16px",
+      1
+    ],
+    [
+      "0.96px",
+      1
+    ]
+  ],
+  "topLineHeights": [
+    [
+      "11.5px",
+      1532
+    ],
+    [
+      "17.1056px",
+      220
+    ],
+    [
+      "16.8383px",
+      85
+    ],
+    [
+      "10.35px",
+      44
+    ],
+    [
+      "13.9573px",
+      34
+    ],
+    [
+      "17.0294px",
+      28
+    ]
+  ],
+  "topFontFeatures": [],
+  "topFontVariations": [],
+  "topRadii": [
+    [
+      "6.402px",
+      34
+    ],
+    [
+      "4px",
+      28
+    ],
+    [
+      "2px",
+      16
+    ],
+    [
+      "4.268px",
+      12
+    ],
+    [
+      "11.0142px",
+      11
+    ],
+    [
+      "10.67px",
+      7
+    ],
+    [
+      "2.134px",
+      6
+    ],
+    [
+      "1px",
+      6
+    ]
+  ],
+  "topShadows": [
+    [
+      "rgba(0, 0, 0, 0.14) 0px 6px 12px 0px",
+      3
+    ],
+    [
+      "rgba(0, 0, 0, 0.06) 0px 4px 8px 0px",
+      1
+    ],
+    [
+      "rgba(0, 0, 0, 0.18) 0px 4.268px 8.536px 0px",
+      1
+    ],
+    [
+      "rgb(153, 153, 153) 0px 2px 10px -3px",
+      1
+    ]
+  ],
+  "topGaps": [
+    [
+      "normal 12.804px",
+      33
+    ],
+    [
+      "17.072px",
+      12
+    ],
+    [
+      "0px 27.742px",
+      4
+    ],
+    [
+      "33.0426px 16.5213px",
+      3
+    ],
+    [
+      "12.804px",
+      3
+    ]
+  ],
+  "topTransitions": [
+    [
+      "0.5s cubic-bezier(0.65, 0, 0.35, 1)",
+      83
+    ],
+    [
+      "0.3s ease",
+      56
+    ],
+    [
+      "0.3s ease-out",
+      41
+    ],
+    [
+      "0.2s ease-out",
+      30
+    ],
+    [
+      "0.3s cubic-bezier(0.65, 0, 0.35, 1)",
+      29
+    ],
+    [
+      "0.8s, 0.8s cubic-bezier(0.65, 0, 0.35, 1), cubic-bezier(0.65, 0, 0.35, 1)",
+      29
+    ],
+    [
+      "0.2s ease-in-out",
+      22
+    ],
+    [
+      "0.1s ease-out",
+      13
+    ]
+  ],
+  "topAnimations": [
+    [
+      "onetrust-fade-in",
+      2
+    ]
+  ],
+  "keyframesDefinedCount": 13,
+  "sampleKeyframes": [
+    "onetrust-fade-in",
+    "keyframe-motion-rotate",
+    "keyframe-motion-blank",
+    "rdp-slide_in_left",
+    "rdp-slide_in_right",
+    "rdp-slide_out_left",
+    "rdp-slide_out_right",
+    "rdp-fade_in"
+  ],
+  "topBackdropFilters": [
+    [
+      "blur(0px)",
+      3
+    ],
+    [
+      "blur(20px)",
+      1
+    ]
+  ],
+  "topBlendModes": [],
+  "clipPathCount": 0,
+  "topViewTransitions": [
+    [
+      "root",
+      1
+    ]
+  ],
+  "bgImageUrlCount": 1,
+  "linearGradientCount": 2,
+  "radialGradientCount": 0,
+  "conicGradientCount": 0,
+  "topGradients": [
+    [
+      "linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%)",
+      3
+    ],
+    [
+      "linear-gradient(rgb(11, 13, 14) 0%, rgb(18, 19, 20) 100%)",
+      1
+    ]
+  ]
+}

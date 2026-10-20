@@ -1,0 +1,206 @@
+{
+    "cssVarTotal": 2,
+    "colorVarTotal": 0,
+    "brandPrefixedVarCount": 0,
+    "brandPrefixedVars": {},
+    "crossOriginFailures": 0,
+    "webComponentNote": "2 web components (content in Shadow DOM may be missed)",
+    "elementsWalked": 1036,
+    "colorSpacesDetected": [
+      "rgb",
+      "oklch"
+    ],
+    "modernCssColorFunctions": {
+      "lightDark": 0,
+      "colorMix": 0,
+      "relativeColor": 0
+    },
+    "topTextColors": [
+      {
+        "color": "rgb(255, 255, 255)",
+        "count": 916
+      },
+      {
+        "color": "rgb(128, 128, 128)",
+        "count": 106
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "count": 2
+      },
+      {
+        "color": "oklch(0.145 0 0)",
+        "count": 1
+      }
+    ],
+    "topBackgroundColors": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "count": 5
+      },
+      {
+        "color": "rgb(204, 5, 151)",
+        "count": 2
+      },
+      {
+        "color": "rgb(17, 186, 255)",
+        "count": 1
+      },
+      {
+        "color": "oklch(1 0 0)",
+        "count": 1
+      }
+    ],
+    "topBorderColors": [
+      [
+        "rgb(255, 255, 255)",
+        38
+      ]
+    ],
+    "topTextDecorationColors": [],
+    "topOutlineColors": [],
+    "topSvgFills": [
+      [
+        "rgb(255, 255, 255)",
+        2
+      ]
+    ],
+    "topSvgStrokes": [],
+    "svgElementCount": 1,
+    "topFontFamilies": [
+      [
+        "neue, \"neue Fallback\"",
+        783
+      ],
+      [
+        "hatton, \"hatton Fallback\"",
+        200
+      ],
+      [
+        "Times",
+        52
+      ],
+      [
+        "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+        1
+      ]
+    ],
+    "fontSizesScale": [
+      "9.2px",
+      "13px",
+      "15px",
+      "16px",
+      "18px",
+      "19.28px",
+      "20px",
+      "24px",
+      "43.38px",
+      "56.635px",
+      "60.25px",
+      "62.66px",
+      "70px",
+      "79.53px",
+      "100px"
+    ],
+    "fontWeights": [
+      "200",
+      "400",
+      "500"
+    ],
+    "topLetterSpacings": [
+      [
+        "2px",
+        2
+      ]
+    ],
+    "topLineHeights": [
+      [
+        "18.4px",
+        282
+      ],
+      [
+        "13px",
+        159
+      ],
+      [
+        "20px",
+        150
+      ],
+      [
+        "29px",
+        99
+      ],
+      [
+        "63.4312px",
+        77
+      ],
+      [
+        "79.53px",
+        50
+      ]
+    ],
+    "topFontFeatures": [],
+    "topFontVariations": [],
+    "topRadii": [
+      [
+        "20px",
+        18
+      ],
+      [
+        "29px",
+        5
+      ],
+      [
+        "26px",
+        2
+      ],
+      [
+        "24px",
+        2
+      ],
+      [
+        "50%",
+        1
+      ],
+      [
+        "2%",
+        1
+      ]
+    ],
+    "topShadows": [],
+    "topGaps": [],
+    "topTransitions": [
+      [
+        "0.33s ease",
+        5
+      ]
+    ],
+    "topAnimations": [],
+    "keyframesDefinedCount": 1,
+    "sampleKeyframes": [
+      "noiseAnimation"
+    ],
+    "topBackdropFilters": [],
+    "topBlendModes": [
+      [
+        "difference",
+        3
+      ],
+      [
+        "exclusion",
+        3
+      ]
+    ],
+    "clipPathCount": 0,
+    "topViewTransitions": [
+      [
+        "root",
+        1
+      ]
+    ],
+    "bgImageUrlCount": 0,
+    "linearGradientCount": 0,
+    "radialGradientCount": 0,
+    "conicGradientCount": 0,
+    "topGradients": []
+  }

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kalmek: Explore Malawi</title>
+  <meta name="description" content="Kalmek plans small-group journeys across Malawi, from Mulanje's peaks and Lake Malawi's islands to Liwonde, Majete and the Nyika plateau.">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preload" href="fonts/outfit-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="icons/phosphor.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Images: Wikimedia Commons (various CC licences) -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav">
+      <a class="logo" href="#top" aria-label="Kalmek home">
+        <svg class="logo__glyph" viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M16 3.5a12.5 12.5 0 1 1-8.84 3.66" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="6.4" cy="7.2" r="3" fill="currentColor"/>
+        </svg>
+        <span class="logo__word">Kalmek</span>
+      </a>
+
+      <nav class="nav__links" id="nav-links" aria-label="Primary">
+        <a href="#discover">Discover</a>
+        <a href="#features">Features</a>
+        <a href="#about">About us</a>
+        <a href="#contact">Contact</a>
+        <a href="#gallery">Blog</a>
+      </nav>
+
+      <div class="nav__actions">
+        <form class="nav__search" role="search">
+          <label class="sr-only" for="nav-search">Search destinations</label>
+          <input id="nav-search" type="search" placeholder="Search destinations" autocomplete="off">
+        </form>
+        <button class="nav__search-btn" type="button" aria-expanded="false" aria-controls="nav-search">
+          <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
+          <span class="sr-only">Search</span>
+        </button>
+        <a class="btn btn--primary" href="#contact">Book Now</a>
+        <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <i class="ph ph-list" aria-hidden="true"></i>
+          <span class="sr-only">Menu</span>
+        </button>
+      </div>
+      <p class="nav__search-note" role="status" aria-live="polite"></p>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero__copy">
+        <h1 class="hero-display">
+          <span class="hero-display__line" data-hero="1">
+            <span>Explore</span>
+            <span class="hero__thumb">
+              <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=400&q=80" alt="" width="84" height="84">
+              <span class="badge-demo" aria-hidden="true">
+                <svg class="badge-demo__ring" viewBox="0 0 100 100">
+                  <defs>
+                    <path id="badgePathHero" d="M50,50 m-39,0 a39,39 0 1,1 78,0 a39,39 0 1,1 -78,0" fill="none"/>
+                  </defs>
+                  <text><textPath href="#badgePathHero" startOffset="1%">DEMO VIDEO · DEMO VIDEO · </textPath></text>
+                </svg>
+                <span class="badge-demo__core"><i class="ph-fill ph-play"></i></span>
+              </span>
+            </span>
+          </span>
+          <span class="hero-display__line" data-hero="2">
+            <a class="leaf leaf--hero" href="#discover" aria-label="Start exploring Malawi">
+              <span class="leaf__arrow" aria-hidden="true"><span class="leaf__shaft"></span><i class="ph ph-caret-right"></i></span>
+            </a>
+            <span>Malawi</span>
+          </span>
+        </h1>
+
+        <div class="hero__intro" data-hero="3">
+          <span class="hero__glyphs" aria-hidden="true">
+            <svg class="glyph glyph--clover" viewBox="0 0 36 36">
+              <circle cx="18" cy="10" r="7.4"/><circle cx="26" cy="18" r="7.4"/>
+              <circle cx="18" cy="26" r="7.4"/><circle cx="10" cy="18" r="7.4"/>
+            </svg>
+            <svg class="glyph glyph--asterisk" viewBox="0 0 36 36">
+              <path d="M18 3v30M3 18h30M7.4 7.4l21.2 21.2M28.6 7.4 7.4 28.6"/>
+            </svg>
+          </span>
+          <p class="body">From misty tea estates to quiet lake islands, Kalmek plans small-group journeys across Malawi built around slow mornings and long dinners.</p>
+        </div>
+      </div>
+
+      <div class="hero__media" data-hero="4">
+        <div class="ring-wrap">
+          <img class="arch" src="https://images.unsplash.com/photo-1778090887585-b27fae5b6f03?auto=format&fit=crop&w=1000&q=80" alt="" width="416" height="416">
+          <div class="ring" aria-hidden="true">
+            <svg viewBox="0 0 500 500">
+              <defs>
+                <path id="ringPathHero" d="M250 470 A220 220 0 1 1 250 30 A220 220 0 1 1 250 470" fill="none"/>
+              </defs>
+              <text><textPath href="#ringPathHero" startOffset="1%">KALMEK · KALMEK · KALMEK · KALMEK · KALMEK · KALMEK · KALMEK · </textPath></text>
+            </svg>
+            <span class="ring__rule"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS STRIP -->
+    <section class="stats container" aria-label="Kalmek in numbers">
+      <div class="stats__stat">
+        <div class="stats__thumbs" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=400&q=80" alt="" width="72" height="72">
+          <img src="https://images.unsplash.com/photo-1439066615861-d1af74d74000?auto=format&fit=crop&w=400&q=80" alt="" width="72" height="72">
+        </div>
+        <div>
+          <p class="stat-number">10,000+</p>
+          <p class="caption muted">Travelers hosted since 2016</p>
+        </div>
+      </div>
+
+      <div class="capsule">
+        <div class="capsule__text">
+          <p class="capsule__title">Features</p>
+          <p class="capsule__desc">Guides, routes and small groups, sorted from booking to ferry home.</p>
+        </div>
+        <div class="capsule__thumb">
+          <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=400&q=80" alt="" width="64" height="64">
+          <i class="ph ph-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div class="stats__story">
+        <div>
+          <p class="stats__story-title">Our story</p>
+          <p class="caption muted">Ten years of chasing Malawi's horizons with curious people.</p>
+        </div>
+        <a class="leaf leaf--tall" href="#about" aria-label="Read our story">
+          <span class="leaf__arrow" aria-hidden="true"><span class="leaf__shaft"></span><i class="ph ph-caret-right"></i></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- DESTINATIONS / DISCOVER MALAWI -->
+    <section class="section" id="discover">
+      <div class="container">
+        <h2 class="section-heading section-heading--center" data-reveal>Discover Malawi</h2>
+
+        <div class="dest-grid">
+          <article class="dest-card" data-reveal>
+            <div class="dest-card__photo">
+              <img src="assets/images/Mulanje-Mountain-Hiking.jpg" alt="Hikers on the forested slopes of Mount Mulanje" width="416" height="260" loading="lazy">
+            </div>
+            <p class="dest-card__loc"><i class="ph ph-map-pin" aria-hidden="true"></i><span class="caption muted">Mulanje, Southern Region</span></p>
+            <h3 class="card-title">Mount Mulanje massif hikes</h3>
+            <button class="price-pill" type="button" data-exp="mulanje">
+              <span class="price-pill__price"><b>$260</b><small>/person</small></span>
+              <span class="price-pill__cta">View Details<i class="ph ph-chevron-right" aria-hidden="true"></i></span>
+            </button>
+          </article>
+
+          <article class="dest-card" data-reveal>
+            <div class="dest-card__photo">
+              <img src="https://images.unsplash.com/photo-1751318416461-e028cae693ef?auto=format&fit=crop&w=900&q=80" alt="Clear turquoise water and granite islands at Cape Maclear on Lake Malawi" width="416" height="260" loading="lazy">
+            </div>
+            <p class="dest-card__loc"><i class="ph ph-map-pin" aria-hidden="true"></i><span class="caption muted">Cape Maclear, Lake Malawi</span></p>
+            <h3 class="card-title">Cape Maclear lake days</h3>
+            <button class="price-pill" type="button" data-exp="capemaclear">
+              <span class="price-pill__price"><b>$340</b><small>/person</small></span>
+              <span class="price-pill__cta">View Details<i class="ph ph-chevron-right" aria-hidden="true"></i></span>
+            </button>
+          </article>
+
+          <article class="dest-card" data-reveal>
+            <div class="dest-card__photo">
+              <img src="assets/images/river-safari.jpg" alt="Boat safari on the Shire River in Liwonde" width="416" height="260" loading="lazy">
+            </div>
+            <p class="dest-card__loc"><i class="ph ph-map-pin" aria-hidden="true"></i><span class="caption muted">Liwonde National Park, Machinga</span></p>
+            <h3 class="card-title">Liwonde river safaris</h3>
+            <button class="price-pill" type="button" data-exp="liwonde">
+              <span class="price-pill__price"><b>$480</b><small>/person</small></span>
+              <span class="price-pill__cta">View Details<i class="ph ph-chevron-right" aria-hidden="true"></i></span>
+            </button>
+          </article>
+
+          <article class="dest-card" data-reveal>
+            <div class="dest-card__photo">
+              <img src="assets/images/Majete-Game-Drives.jpg" alt="Wildlife on a game drive in Majete Wildlife Reserve" width="416" height="260" loading="lazy">
+            </div>
+            <p class="dest-card__loc"><i class="ph ph-map-pin" aria-hidden="true"></i><span class="caption muted">Majete Wildlife Reserve, Chikwawa</span></p>
+            <h3 class="card-title">Majete big-game drives</h3>
+            <button class="price-pill" type="button" data-exp="majete">
+              <span class="price-pill__price"><b>$460</b><small>/person</small></span>
+              <span class="price-pill__cta">View Details<i class="ph ph-chevron-right" aria-hidden="true"></i></span>
+            </button>
+          </article>
+
+          <article class="dest-card" data-reveal>
+            <div class="dest-card__photo">
+              <img src="assets/images/plateau-rides.jpg" alt="Riders crossing the rolling grassland of Nyika plateau" width="416" height="260" loading="lazy">
+            </div>
+            <p class="dest-card__loc"><i class="ph ph-map-pin" aria-hidden="true"></i><span class="caption muted">Nyika National Park, Rumphi</span></p>
+            <h3 class="card-title">Nyika plateau rides</h3>
+            <button class="price-pill" type="button" data-exp="nyika">
+              <span class="price-pill__price"><b>$520</b><small>/person</small></span>
+              <span class="price-pill__cta">View Details<i class="ph ph-chevron-right" aria-hidden="true"></i></span>
+            </button>
+          </article>
+
+          <article class="dest-card" data-reveal>
+            <div class="dest-card__photo">
+              <img src="assets/images/Likoma-Island.jpg" alt="Turquoise water and sandy coves of Likoma Island" width="416" height="260" loading="lazy">
+            </div>
+            <p class="dest-card__loc"><i class="ph ph-map-pin" aria-hidden="true"></i><span class="caption muted">Likoma Island, Lake Malawi</span></p>
+            <h3 class="card-title">Likoma island escapes</h3>
+            <button class="price-pill" type="button" data-exp="likoma">
+              <span class="price-pill__price"><b>$610</b><small>/person</small></span>
+              <span class="price-pill__cta">View Details<i class="ph ph-chevron-right" aria-hidden="true"></i></span>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES / GOOEY TRIO -->
+    <section class="section" id="features">
+      <div class="container">
+        <h2 class="section-heading section-heading--center" data-reveal>
+          Our best features<br>for travelers who believe in us
+        </h2>
+
+        <div class="trio">
+          <div class="trio__shapes" aria-hidden="true">
+            <i></i><b></b><i></i><b></b><i></i>
+          </div>
+          <div class="trio__content">
+            <article>
+              <p class="trio__num">01</p>
+              <h3 class="feature-title">Expert local guides</h3>
+              <p class="trio__desc">Hosts who know the hidden coves, night markets and quiet trails.</p>
+            </article>
+            <article>
+              <p class="trio__num">02</p>
+              <h3 class="feature-title">Reliable itineraries</h3>
+              <p class="trio__desc">Fixed departures, small groups and a real person on call all trip.</p>
+            </article>
+            <article>
+              <p class="trio__num">03</p>
+              <h3 class="feature-title">Friendly prices</h3>
+              <p class="trio__desc">Clear pricing with transfers, meals and permits already included.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATEMENT + BANNER -->
+    <section class="section statement">
+      <div class="container">
+        <div class="statement__head">
+          <h2 class="statement-display" data-reveal>Adventures can fill your soul</h2>
+          <p class="body-large" data-reveal>Every route starts with a feeling: salt on your skin, a slow morning, a view that makes you forget your phone.</p>
+        </div>
+
+        <div class="statement__media">
+          <div class="statement__side">
+            <span class="badge-demo badge-demo--lg" aria-hidden="true">
+              <svg class="badge-demo__ring" viewBox="0 0 100 100">
+                <defs>
+                  <path id="badgePathStatement" d="M50,50 m-39,0 a39,39 0 1,1 78,0 a39,39 0 1,1 -78,0" fill="none"/>
+                </defs>
+                <text><textPath href="#badgePathStatement" startOffset="1%">DEMO VIDEO · DEMO VIDEO · </textPath></text>
+              </svg>
+              <span class="badge-demo__core"><i class="ph-fill ph-play"></i></span>
+            </span>
+            <svg class="arrow-rule" viewBox="0 0 12 160" aria-hidden="true">
+              <path d="M6 0v148M1.5 143l4.5 8 4.5-8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="statement__main">
+            <img class="leaf-banner" src="https://images.unsplash.com/photo-1757872248208-cde85cc8ff69?auto=format&fit=crop&w=1600&q=80" alt="" width="1077" height="280" loading="lazy">
+            <p class="body-large">Two weeks along the shore of Lake Malawi, with sailing, snorkelling and long dinners under the lanterns, and nothing on the schedule but the sunset.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ARCH SPLIT / ABOUT -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__media" data-reveal>
+          <div class="ring-wrap ring-wrap--lg">
+            <img class="arch" src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1000&q=80" alt="" width="466" height="466" loading="lazy">
+            <div class="ring" aria-hidden="true">
+              <svg viewBox="0 0 500 500">
+                <defs>
+                  <path id="ringPathAbout" d="M250 470 A220 220 0 1 1 250 30 A220 220 0 1 1 250 470" fill="none"/>
+                </defs>
+                <text><textPath href="#ringPathAbout" startOffset="1%">KALMEK · KALMEK · KALMEK · KALMEK · KALMEK · KALMEK · KALMEK · </textPath></text>
+              </svg>
+              <span class="ring__rule"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__copy">
+          <h2 class="split-heading" data-reveal>Every journey should leave you a little wilder</h2>
+          <p class="body" data-reveal>We build trips in groups of twelve, led by people who live where you are going. You eat where they eat and walk the routes they walk.</p>
+          <p class="body" data-reveal>You bring curiosity. We handle the rest, from the first transfer to the last ferry home.</p>
+          <a class="leaf leaf--wide" href="#discover" data-reveal aria-label="See upcoming trips">
+            <span class="leaf__arrow" aria-hidden="true"><span class="leaf__shaft"></span><i class="ph ph-caret-right"></i></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section" id="stories">
+      <div class="container">
+        <h2 class="section-heading section-heading--center" data-reveal>Our best client words</h2>
+
+        <div class="slider" data-slider>
+          <div class="slider__viewport">
+            <div class="slider__track">
+              <article class="swoop-card">
+                <span class="swoop-card__quote" aria-hidden="true">&ldquo;&rdquo;</span>
+                <p class="body-large">We canoed out to Domwe island at sunrise and had the bay to ourselves. Every day felt planned and free at once.</p>
+                <footer class="swoop-card__person">
+                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&h=200&q=80" alt="" width="64" height="64" loading="lazy">
+                  <div>
+                    <p class="person-name">Marisol Vega</p>
+                    <p class="caption">Architect, Lisbon</p>
+                  </div>
+                </footer>
+              </article>
+
+              <article class="swoop-card">
+                <span class="swoop-card__quote" aria-hidden="true">&ldquo;&rdquo;</span>
+                <p class="body-large">Our guide knew every trail on Mulanje and where the tea estates open their gates. We still talk about that ridge walk.</p>
+                <footer class="swoop-card__person">
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=200&h=200&q=80" alt="" width="64" height="64" loading="lazy">
+                  <div>
+                    <p class="person-name">Tomas Lindqvist</p>
+                    <p class="caption">Teacher, Malm&ouml;</p>
+                  </div>
+                </footer>
+              </article>
+
+              <article class="swoop-card">
+                <span class="swoop-card__quote" aria-hidden="true">&ldquo;&rdquo;</span>
+                <p class="body-large">Liwonde at first light, elephants crossing the Shire while we drifted. I filled two memory cards before breakfast.</p>
+                <footer class="swoop-card__person">
+                  <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=200&h=200&q=80" alt="" width="64" height="64" loading="lazy">
+                  <div>
+                    <p class="person-name">Amara Okafor</p>
+                    <p class="caption">Photographer, Lagos</p>
+                  </div>
+                </footer>
+              </article>
+
+              <article class="swoop-card">
+                <span class="swoop-card__quote" aria-hidden="true">&ldquo;&rdquo;</span>
+                <p class="body-large">They moved our whole route around the rains and we barely noticed. That is real planning.</p>
+                <footer class="swoop-card__person">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&h=200&q=80" alt="" width="64" height="64" loading="lazy">
+                  <div>
+                    <p class="person-name">Hana Ito</p>
+                    <p class="caption">Product designer, Osaka</p>
+                  </div>
+                </footer>
+              </article>
+
+              <article class="swoop-card">
+                <span class="swoop-card__quote" aria-hidden="true">&ldquo;&rdquo;</span>
+                <p class="body-large">Likoma on a fair budget. The lodge, the boat, the meals, all of it was in the price they quoted.</p>
+                <footer class="swoop-card__person">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&h=200&q=80" alt="" width="64" height="64" loading="lazy">
+                  <div>
+                    <p class="person-name">Diego Ferreira</p>
+                    <p class="caption">Chef, Porto</p>
+                  </div>
+                </footer>
+              </article>
+
+              <article class="swoop-card">
+                <span class="swoop-card__quote" aria-hidden="true">&ldquo;&rdquo;</span>
+                <p class="body-large">Nyika felt like another country, all rolling grassland and zebra. Cold mornings, enormous skies.</p>
+                <footer class="swoop-card__person">
+                  <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&h=200&q=80" alt="" width="64" height="64" loading="lazy">
+                  <div>
+                    <p class="person-name">Thandiwe Banda</p>
+                    <p class="caption">Producer, Lilongwe</p>
+                  </div>
+                </footer>
+              </article>
+
+              <article class="swoop-card">
+                <span class="swoop-card__quote" aria-hidden="true">&ldquo;&rdquo;</span>
+                <p class="body-large">We came for the lake and stayed for the people. Kalmek handled everything from the first transfer home.</p>
+                <footer class="swoop-card__person">
+                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=200&h=200&q=80" alt="" width="64" height="64" loading="lazy">
+                  <div>
+                    <p class="person-name">Kwame Mensah</p>
+                    <p class="caption">Engineer, Accra</p>
+                  </div>
+                </footer>
+              </article>
+            </div>
+          </div>
+          <div class="slider__dots" data-slider-dots aria-label="Testimonial pages"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section" id="gallery">
+      <div class="container">
+        <h2 class="section-heading section-heading--center" data-reveal>Where our travelers wander</h2>
+
+        <div class="gallery" data-gallery>
+          <figure class="gallery__item" data-reveal>
+            <button type="button" class="gallery__btn" data-lightbox data-caption="Sunrise over the granite domes of Mount Mulanje">
+              <img src="assets/images/Mulanje-Mountain-Hiking.jpg" alt="Hikers on the forested slopes of Mount Mulanje" loading="lazy">
+            </button>
+            <figcaption>Mount Mulanje massif</figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <button type="button" class="gallery__btn" data-lightbox data-caption="Turquoise coves along Likoma Island">
+              <img src="assets/images/Likoma-Island.jpg" alt="Turquoise water and sandy coves of Likoma Island" loading="lazy">
+            </button>
+            <figcaption>Likoma island coves</figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <button type="button" class="gallery__btn" data-lightbox data-caption="Big-game country in Majete Wildlife Reserve">
+              <img src="assets/images/Majete-Game-Drives.jpg" alt="Wildlife on a game drive in Majete Wildlife Reserve" loading="lazy">
+            </button>
+            <figcaption>Majete big-game drives</figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <button type="button" class="gallery__btn" data-lightbox data-caption="Drifting the Shire River past pods of hippo">
+              <img src="assets/images/river-safari.jpg" alt="Boat safari on the Shire River in Liwonde" loading="lazy">
+            </button>
+            <figcaption>Liwonde river safaris</figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <button type="button" class="gallery__btn" data-lightbox data-caption="High grassland rides on the Nyika plateau">
+              <img src="assets/images/plateau-rides.jpg" alt="Riders crossing the rolling grassland of Nyika plateau" loading="lazy">
+            </button>
+            <figcaption>Nyika plateau rides</figcaption>
+          </figure>
+          <figure class="gallery__item" data-reveal>
+            <button type="button" class="gallery__btn" data-lightbox data-caption="Lake days at Cape Maclear">
+              <img src="assets/images/meg-von-haartman-RtZUgho6x-s-unsplash.jpg" alt="Clear water and boats at Cape Maclear on Lake Malawi" loading="lazy">
+            </button>
+            <figcaption>Cape Maclear lake days</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / BOOK -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="cu">
+          <div class="cu__l">
+            <img class="cu__img" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy">
+            <div class="cu__dots" aria-hidden="true"></div>
+            <h2 class="cu__big">The Warm<br>Heart</h2>
+            <div class="cu__copy">
+              <h3>Start planning your Malawi trip</h3>
+              <p>Tell us where you would like to go and how long you have. A Kalmek planner replies within one working day, with a route and an honest price.</p>
+              <ul class="contact__details">
+                <li><i class="ph ph-envelope-simple" aria-hidden="true"></i><a href="mailto:hello@kalmek.mw">hello@kalmek.mw</a></li>
+                <li><i class="ph ph-phone" aria-hidden="true"></i><a href="tel:+2651234567">+265 1 234 567</a></li>
+                <li><i class="ph ph-map-pin" aria-hidden="true"></i><span>Area 3, Lilongwe, Malawi</span></li>
+                <li><i class="ph ph-clock" aria-hidden="true"></i><span>Mon to Fri, 08:00 to 17:00 CAT</span></li>
+              </ul>
+              <a class="cu__btn" href="#discover">See trips</a>
+            </div>
+          </div>
+
+          <form class="cu__r" data-contact>
+            <h2>Contact us</h2>
+            <p class="cu__sub">Interested in touring with us? Use the form below to get in touch.</p>
+            <div class="cu__grid">
+              <div class="field"><label for="contact-name">Name</label><input id="contact-name" name="name" type="text" autocomplete="name" required></div>
+              <div class="field"><label for="contact-company">Company</label><input id="contact-company" name="company" type="text" autocomplete="organization"></div>
+              <div class="field"><label for="contact-email">Email</label><input id="contact-email" name="email" type="email" autocomplete="email" required></div>
+              <div class="field"><label for="contact-phone">Phone</label><input id="contact-phone" name="phone" type="tel" autocomplete="tel"></div>
+              <div class="field cu__full"><label for="contact-trip">Trip of interest</label>
+                <select id="contact-trip" name="trip"><option value="">Not sure yet</option><option value="mulanje">Mount Mulanje massif hikes</option><option value="capemaclear">Cape Maclear lake days</option><option value="liwonde">Liwonde river safaris</option><option value="majete">Majete big-game drives</option><option value="nyika">Nyika plateau rides</option><option value="likoma">Likoma island escapes</option></select></div>
+              <div class="field cu__full"><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="4" placeholder="Dates, group size, anything else."></textarea></div>
+            </div>
+            <button class="cu__submit" type="submit">Submit</button>
+            <p class="contact__note" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section">
+    <div class="container">
+      <div class="footer__row">
+        <a class="logo" href="#top" aria-label="Kalmek home">
+          <svg class="logo__glyph" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M16 3.5a12.5 12.5 0 1 1-8.84 3.66" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="6.4" cy="7.2" r="3" fill="currentColor"/>
+          </svg>
+          <span class="logo__word">Kalmek</span>
+        </a>
+
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="#discover">Packages</a>
+          <a href="#features">Features</a>
+          <a href="#about">About us</a>
+          <a href="#contact">Contact</a>
+          <a href="#gallery">Gallery</a>
+        </nav>
+
+        <form class="newsletter" data-newsletter>
+          <label class="sr-only" for="newsletter-email">Email address</label>
+          <input id="newsletter-email" type="email" placeholder="Email" required autocomplete="email">
+          <button class="btn btn--primary" type="submit">Subscribe</button>
+          <span class="newsletter__note" role="status"></span>
+        </form>
+      </div>
+
+      <hr class="footer__rule">
+
+      <div class="footer__row footer__row--bottom">
+        <div class="footer__social">
+          <a href="#top" aria-label="Kalmek on Instagram"><i class="ph ph-instagram-logo" aria-hidden="true"></i></a>
+          <a href="#top" aria-label="Kalmek on LinkedIn"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a>
+          <a href="#top" aria-label="Kalmek on Facebook"><i class="ph ph-facebook-logo" aria-hidden="true"></i></a>
+          <a href="#top" aria-label="Kalmek on X"><i class="ph ph-x-logo" aria-hidden="true"></i></a>
+        </div>
+        <p class="footer__copy caption muted" role="status" aria-live="polite">&copy; 2026 Kalmek Travel Co. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- EXPERIENCE DETAIL MODAL (populated from script.js) -->
+  <dialog class="exp-modal" id="exp-modal" aria-labelledby="exp-modal-title">
+  <div class="bk">
+    <nav class="bk__rail" aria-label="Trip tools">
+      <button type="button" data-save aria-label="Save trip"><i class="ph ph-heart"></i></button>
+      <button type="button" data-goto-pay aria-label="Jump to booking"><i class="ph ph-calendar-blank"></i></button>
+      <button type="button" data-share aria-label="Copy link"><i class="ph ph-share-network"></i></button>
+      <span class="sp"></span>
+      <button type="button" data-exp-close aria-label="Close details"><i class="ph ph-sign-out"></i></button>
+    </nav>
+    <div class="bk__main">
+      <div class="bk__top"><span class="logo"><svg class="logo__glyph" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5a12.5 12.5 0 1 1-8.84 3.66" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="6.4" cy="7.2" r="3" fill="currentColor"/></svg><b class="logo__word">Kalmek</b></span><span>Trips &middot; Support &middot; Contact</span></div>
+      <div class="bk__gal" data-gal></div>
+      <h2 class="bk__title" id="exp-modal-title" data-exp-title></h2>
+      <p class="bk__addr" data-exp-loc></p>
+      <div class="bk__tags" data-tags></div>
+      <h3 class="bk__h">Trip Features</h3>
+      <div class="bk__feat" data-feat></div>
+      <div class="bk__tabs" role="tablist"><button class="on" data-tab="0">Description</button><button data-tab="1">Features</button><button data-tab="2">Included</button><button data-tab="3">Reviews</button></div>
+      <div class="bk__pane on"><p data-exp-summary></p><div class="bk__map" aria-hidden="true"><i class="ph-fill ph-map-pin"></i></div></div>
+      <div class="bk__pane"><ul data-exp-highlights></ul></div>
+      <div class="bk__pane"><ul data-exp-included></ul></div>
+      <div class="bk__pane"><p>Rated 4.9 by 120+ travellers. &ldquo;Every day felt planned and free at once.&rdquo;</p></div>
+    </div>
+    <aside class="bk__side" aria-label="Booking">
+      <div class="bk__price"><span data-exp-price></span><i>-10% groups 6+</i></div>
+      <div class="bk__box">
+        <label class="bk__row">Start date<input type="date" data-start></label>
+        <div class="bk__row">End date<b data-end></b></div>
+        <label class="bk__row">Travellers<select data-pax><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>8</option></select></label>
+      </div>
+      <h4>Extra Service</h4>
+      <div class="bk__box">
+        <label class="bk__row"><span><input type="checkbox" data-x="40"> Lilongwe airport transfer</span><span>$40</span></label>
+        <label class="bk__row"><span><input type="checkbox" data-x="60"> Private room upgrade</span><span>$60</span></label>
+      </div>
+      <div class="bk__box" data-sum></div>
+      <h4>Your details</h4>
+        <form class="bk__form" data-book novalidate action="https://formsubmit.co/kohelethdigitalsolutions@gmail.com" method="POST">
+        <label class="bk__field"><span>Name</span><input name="name" type="text" autocomplete="name" placeholder="Full name" required></label>
+        <label class="bk__field"><span>Email</span><input name="email" type="email" autocomplete="email" placeholder="you@email.com" required></label>
+        <label class="bk__field"><span>Phone</span><input name="phone" type="tel" autocomplete="tel" placeholder="+265 ..." required></label>
+        <input type="hidden" name="trip" data-book-trip>
+        <input type="hidden" name="start" data-book-start>
+        <input type="hidden" name="end" data-book-end>
+        <input type="hidden" name="travellers" data-book-pax>
+        <input type="hidden" name="extras" data-book-extras>
+        <input type="hidden" name="total" data-book-total>
+        <input type="hidden" name="_subject" value="New Kalmek booking request">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none">
+        <button class="bk__go" type="submit" data-pay>Book Now</button>
+      </form>
+      <p class="bk__note" role="status" aria-live="polite" data-note></p>
+    </aside>
+  </div>
+</dialog>
+
+  <!-- LIGHTBOX -->
+  <dialog class="lightbox" id="lightbox" aria-label="Gallery image">
+    <button class="lightbox__close" type="button" data-lb-close aria-label="Close gallery"><i class="ph ph-x"></i></button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Previous image"><i class="ph ph-caret-left"></i></button>
+    <figure class="lightbox__stage">
+      <img data-lb-img alt="">
+      <figcaption data-lb-cap></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Next image"><i class="ph ph-caret-right"></i></button>
+  </dialog>
+
+  <!-- BOOKING CONFIRMATION -->
+  <dialog class="confirm" id="book-confirm" aria-labelledby="confirm-title">
+    <div class="confirm__card">
+      <span class="confirm__mark" aria-hidden="true"><i class="ph ph-check"></i></span>
+      <h2 class="confirm__title" id="confirm-title">Your booking has been made</h2>
+      <p class="confirm__copy">Thank you, <b data-confirm-name>traveller</b>. We have received your request for <b data-confirm-trip>your trip</b> and a Kalmek planner will be in touch within one working day.</p>
+      <button class="confirm__go" type="button" data-confirm-close>Done</button>
+    </div>
+  </dialog>
+
+  <svg width="0" height="0" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="14" result="blur"/>
+        <feColorMatrix in="blur" mode="matrix"
+          values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 20 -8"/>
+      </filter>
+    </defs>
+  </svg>
+
+  <script src="script.js"></script>
+</body>
+</html>
