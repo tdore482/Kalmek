@@ -562,12 +562,12 @@
         delete payload._subject;
         delete payload._template;
         delete payload._captcha;
-        fetch('https://formsubmit.co/ajax/kohelethdigitalsolutions@gmail.com', {
+        fetch('https://api.web3forms.com/submit', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
           body: JSON.stringify(payload)
         }).then(function (r) { 
-          return r.json().catch(function () { return { success: 'true' }; }); 
+          return r.json().catch(function () { return { success: true }; }); 
         }).then(function (data) {
           note.textContent = '';
           bookForm.reset();

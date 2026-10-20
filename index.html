@@ -584,7 +584,10 @@
       </div>
       <div class="bk__box" data-sum></div>
       <h4>Your details</h4>
-        <form class="bk__form" data-book novalidate action="https://formsubmit.co/kohelethdigitalsolutions@gmail.com" method="POST">
+        <form class="bk__form" data-book novalidate action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="568d20bb-edd0-4a35-bf30-19318460c420">
+        <input type="hidden" name="subject" value="New Kalmek booking request">
+        <input type="checkbox" name="botcheck" style="display:none">
         <label class="bk__field"><span>Name</span><input name="name" type="text" autocomplete="name" placeholder="Full name" required></label>
         <label class="bk__field"><span>Email</span><input name="email" type="email" autocomplete="email" placeholder="you@email.com" required></label>
         <label class="bk__field"><span>Phone</span><input name="phone" type="tel" autocomplete="tel" placeholder="+265 ..." required></label>
@@ -594,10 +597,7 @@
         <input type="hidden" name="travellers" data-book-pax>
         <input type="hidden" name="extras" data-book-extras>
         <input type="hidden" name="total" data-book-total>
-        <input type="hidden" name="_subject" value="New Kalmek booking request">
-        <input type="hidden" name="_template" value="table">
-        <input type="hidden" name="_captcha" value="false">
-        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="subject" value="New Kalmek booking request">
         <button class="bk__go" type="submit" data-pay>Book Now</button>
       </form>
       <p class="bk__note" role="status" aria-live="polite" data-note></p>
